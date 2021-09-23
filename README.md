@@ -2,24 +2,24 @@
 
 ## What is Git?
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects.
-https://en.wikipedia.org/wiki/Git
+- https://en.wikipedia.org/wiki/Git
 
 ## Why Git?
 Your project may go through many stages of development. Git provides a way to track its history and control the versions at each time step.
 
 ## Git vs. GitHub
 Git is the mechanism by which version control happens. GitHub is a UI built on top of Git.
-https://git-scm.com/
+- https://git-scm.com/
 
 ## GitHub vs. Alternatives
 GitHub is not the only UI built on top of Git. There are some alternatives:
-https://about.gitlab.com/
-https://bitbucket.org/
+- https://about.gitlab.com/
+- https://bitbucket.org/
 
 ## Examples in the real world
 Git is used in the real world in many areas:
-https://github.com/CSSEGISandData/COVID-19
-https://github.com/Mojang
+- https://github.com/CSSEGISandData/COVID-19
+- https://github.com/Mojang
 
 ## Installing Git
 Installing Git depends on your machine:
@@ -31,13 +31,13 @@ Credentials may be required.
 ![Gitdraw drawio](https://user-images.githubusercontent.com/10688697/134526659-0b8c7535-2dac-4170-a86b-f9b21dcd8c24.png)
 
 ## Terminology
-repository - a collection of files which represnt your project
-main branch - the current version of the project
-active branch - a version of your project which is diverged from the current main branch by some changes
-merged branch - an inactive branch which used to be active and has been united with the main branch
-commit - a change to the project which is identified by a hash code
-origin - the git server configuration on your local machine
-merge - the action of combining two branches
+- repository - a collection of files which represnt your project
+- main branch - the current version of the project
+- active branch - a version of your project which is diverged from the current main branch by some changes
+- merged branch - an inactive branch which used to be active and has been united with the main branch
+- commit - a change to the project which is identified by a hash code
+- origin - the git server configuration on your local machine
+- merge - the action of combining two branches
 
 ## Commands
 
