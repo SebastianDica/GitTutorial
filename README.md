@@ -19,6 +19,7 @@ GitHub is not the only UI built on top of Git. There are some alternatives:
 ## Examples in the real world
 Git is used in the real world in many areas:
 - https://github.com/CSSEGISandData/COVID-19
+- https://github.com/mrc-ide/covid-sim
 - https://github.com/Mojang
 
 ## Installing Git
