@@ -40,7 +40,9 @@ branch -
 
 ## Visualizers
 
-
+```bash
+git log --graph --decorate --oneline
+```
 
 ## In the industry
 - used every day for producing code
