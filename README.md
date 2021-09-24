@@ -83,6 +83,18 @@ Used to get the last tracked version of a file
 git checkout filename.json
 ```
 
+### Git Status
+What is the current status of your local repository?
+```bash
+git status
+```
+
+### Git Diff
+What is the difference between original starting commit and the changes you have made?
+```bash
+git diff
+```
+
 ### Git Add
 Used to tell git that you are interested to track certain files.
 ```bash
