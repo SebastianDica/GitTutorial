@@ -135,6 +135,9 @@ The pull request will have a button called 'Merge' which will perform the merge 
 ### Conflicts
 If both branches modify the same file lines, there may be some conflicts. Consequentially, these need to be resolved by the user manually in most cases.
 
+### Reverting
+If the merged PR has broken your project or is undesired in any other way, we can revert the last commit.
+
 ## Visualizers
 
 A way to visualize the git tree graph.
