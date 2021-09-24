@@ -40,6 +40,7 @@ Credentials may be required.
 - commit - a change to the project which is identified by a hash code
 - origin - the git server configuration on your local machine
 - merge - the action of combining two branches
+- fork - snapshotting a repository into another repository for developing parallel work
 
 ## Commands
 
