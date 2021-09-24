@@ -43,6 +43,17 @@ Credentials may be required.
 
 ## Commands
 
+### Git Help
+Used to get help with git.
+```bash
+git --help
+```
+
+Used to get the git manual.
+```bash
+man git
+```
+
 ### Git Init
 Used to create a local repository on your machine.
 ```bash
