@@ -30,7 +30,7 @@ https://github.com/git-guides/install-git
 Credentials may be required.
 
 ## Git on paper
-![Gitdraw drawio](https://user-images.githubusercontent.com/10688697/134526659-0b8c7535-2dac-4170-a86b-f9b21dcd8c24.png)
+![Github drawio](https://user-images.githubusercontent.com/10688697/134654690-e1841c2d-2802-4c3c-9778-f6e0a1b8bdea.png)
 
 ## Terminology
 - repository - a collection of files which represnt your project
