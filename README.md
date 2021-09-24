@@ -21,6 +21,7 @@ Git is used in the real world in many areas:
 - https://github.com/CSSEGISandData/COVID-19
 - https://github.com/mrc-ide/covid-sim
 - https://github.com/Mojang
+- https://github.com/EbookFoundation/free-programming-books
 
 ## Installing Git
 Installing Git depends on your machine:
@@ -112,6 +113,7 @@ If both branches modify the same file lines, there may be some conflicts. Conseq
 
 ## Visualizers
 
+A way to visualize the git tree graph.
 ```bash
 git log --graph --decorate --oneline
 ```
