@@ -21,6 +21,7 @@ Git is used in the real world in many areas:
 - https://github.com/CSSEGISandData/COVID-19
 - https://github.com/mrc-ide/covid-sim
 - https://github.com/Mojang
+- https://github.com/EbookFoundation/free-programming-books
 
 ## Installing Git
 Installing Git depends on your machine:
@@ -29,7 +30,7 @@ https://github.com/git-guides/install-git
 Credentials may be required.
 
 ## Git on paper
-![Gitdraw drawio](https://user-images.githubusercontent.com/10688697/134526659-0b8c7535-2dac-4170-a86b-f9b21dcd8c24.png)
+![Github drawio](https://user-images.githubusercontent.com/10688697/134654690-e1841c2d-2802-4c3c-9778-f6e0a1b8bdea.png)
 
 ## Terminology
 - repository - a collection of files which represnt your project
@@ -39,8 +40,20 @@ Credentials may be required.
 - commit - a change to the project which is identified by a hash code
 - origin - the git server configuration on your local machine
 - merge - the action of combining two branches
+- fork - snapshotting a repository into another repository for developing parallel work
 
 ## Commands
+
+### Git Help
+Used to get help with git.
+```bash
+git --help
+```
+
+Used to get the git manual.
+```bash
+man git
+```
 
 ### Git Init
 Used to create a local repository on your machine.
@@ -69,6 +82,18 @@ git checkout -b new_branch_name
 Used to get the last tracked version of a file
 ```bash
 git checkout filename.json
+```
+
+### Git Status
+What is the current status of your local repository?
+```bash
+git status
+```
+
+### Git Diff
+What is the difference between original starting commit and the changes you have made?
+```bash
+git diff
 ```
 
 ### Git Add
@@ -110,8 +135,12 @@ The pull request will have a button called 'Merge' which will perform the merge 
 ### Conflicts
 If both branches modify the same file lines, there may be some conflicts. Consequentially, these need to be resolved by the user manually in most cases.
 
+### Reverting
+If the merged PR has broken your project or is undesired in any other way, we can revert the last commit.
+
 ## Visualizers
 
+A way to visualize the git tree graph.
 ```bash
 git log --graph --decorate --oneline
 ```
